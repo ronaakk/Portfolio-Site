@@ -3,6 +3,8 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { Link } from 'react-scroll';
+import { Footer } from "../Footer/Footer";
 
 const Hero = (props) => (
   <>
@@ -15,7 +17,11 @@ const Hero = (props) => (
         <SectionText>
         I am a self-taught developer deeply passionate about technology and programming, continuously striving to elevate my skills and create impactful applications.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Link to="footer" smooth={true} duration={500}>
+          <Button>
+            Learn More
+          </Button>
+        </Link>
       </LeftSection>
     </Section>
   </>

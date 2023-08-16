@@ -15,6 +15,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
+	target: _blank;
 	font-size: 18px;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
@@ -87,7 +88,7 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
-	padding: 1rem;
+	padding: 1rem 0;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;

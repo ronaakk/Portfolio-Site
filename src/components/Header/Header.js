@@ -1,19 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { RiFile2Line } from "react-icons/ri";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
- 
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-        </a>
-      </Link>
+      <div style={{ display: 'flex', alignItems: 'center', color: "white", fontSize: '2rem'}}> 
+        <Span>Portfolio</Span>
+      </div>
     </Div1>
     <Div2>
       <li>
@@ -38,6 +35,9 @@ const Header = () =>  (
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/">
           <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/">
+          <RiFile2Line size="3rem" />
         </SocialIcons>
       </Div3>
   </Container>

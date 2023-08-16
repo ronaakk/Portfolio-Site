@@ -15,7 +15,7 @@ export const CarouselContainer = styled.ul`
     margin-left: 0px;
   }
 
-  margin-bottom: 80px;
+  margin-bottom: 3rem;
 
   //remove scrollbar
   scrollbar-width: none;  
