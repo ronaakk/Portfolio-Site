@@ -32,10 +32,11 @@ export const BlogCard = styled.div`
   }
 `;
 export const TitleContent = styled.div`
+  color: lightblue;
+  font-size: 2rem;    
   text-align: center;
   z-index: 20;
   width: 100%;
-  margin-botton: 3rem;
 `;
 
 export const HeaderThree = styled.h3`
