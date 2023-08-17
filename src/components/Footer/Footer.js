@@ -11,11 +11,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:647-767-1041">647-767-1041</LinkItem>
+          <LinkItem href="tel:647-767-1041" target="_blank">647-767-1041</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:ronakpatel_@outlook.com">
+          <LinkItem href="mailto:ronakpatel_@outlook.com" target="_blank">
             ronakpatel_@outlook.com
           </LinkItem>
         </LinkColumn>
@@ -25,13 +25,13 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/ronaakk">
+          <SocialIcons href="https://github.com/ronaakk" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/">
+          <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/">
+          <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/" target="_blank">
             <RiFile2Line size="3rem" />
           </SocialIcons>
         </SocialContainer>
