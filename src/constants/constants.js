@@ -31,7 +31,7 @@ export const projects = [
     description: "A HR Management System that allows users to manage their potential employees, with project deadlines, project tasks, number of employees, etc. Project primarily explored many-to-many relationships.",
     image: '/images/4.jpg',
     tags: ['Spring Boot', 'JavaScript', 'PostgreSQL'],
-    source: 'https://google.com',
+    source: 'https://github.com/ronaakk/HR-Management-System',
     visit: '',
     id: 3,
   },

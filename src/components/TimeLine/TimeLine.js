@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       Before getting involved in tech, I was studying Environmental Engineering. In 2021, I took a leap and decided to learn how to program. I've learned a lot over the past two years, while constantly improving my capabilities and bringing a positive attitude to every challenge.
-      When I'm not coding, I'm usually working out, reading, or playing spikeball.
+      When I'm not coding, I'm usually working out, reading, or playing basketball.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
