@@ -15,6 +15,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
+  	white-space: nowrap;
 	target: _blank;
 	font-size: 18px;
 	line-height: 30px;

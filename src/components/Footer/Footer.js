@@ -16,7 +16,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:ronakpatel_@outlook.com" target="_blank">
-            ronakpatel_@outlook.com
+            ronakpatel-@outlook.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -31,7 +31,7 @@ const Footer = () => {
           <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/" target="_blank">
+          <SocialIcons href="file:///Users/ronak/Downloads/Ronak_Patel_Software_Engineering_Resume_2023.pdf" download target="_blank">
             <RiFile2Line size="3rem" />
           </SocialIcons>
         </SocialContainer>
