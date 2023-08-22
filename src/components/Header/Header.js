@@ -36,7 +36,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/ronak-patel-bba9a91a1/" target="_blank">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="file:///Users/ronak/Downloads/Ronak_Patel_Software_Engineering_Resume_2023.pdf" target="_blank" rel="noopener noreferrer">
+        <SocialIcons href="https://github.com/ronaakk/Portfolio-Site/blob/main/assets/Ronak_Patel_Software_Engineering_Resume_2023%20(1).pdf" target="_blank">
           <RiFile2Line size="3rem" />
         </SocialIcons>
       </Div3>
